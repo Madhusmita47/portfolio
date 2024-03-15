@@ -373,3 +373,33 @@ nav .navlinks li a{
         padding: 40px 0px;
     }
 }
+#contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.social a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .social a {
+        font-size: 20px;
+    }
+}
